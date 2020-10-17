@@ -72,7 +72,7 @@ class ProductForm extends Component {
             value={this.props.values.author}
             onChange={this.props.handleChange('author')}
             placeholder="Product author"
-            label="Author"
+            label="Producer"
             type="text"
           />
           <Input.Textarea

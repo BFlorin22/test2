@@ -151,17 +151,17 @@ class ProductsView extends Component {
             onClick={() => this.openModal(this.state.currentProduct)}
           />
         </div>
-        <Table>
+        <Table border="5">
           <Table.Header>
             <Table.Row>
-              <Table.HeaderCell>Image</Table.HeaderCell>
-              <Table.HeaderCell>Name</Table.HeaderCell>
-              <Table.HeaderCell>Description</Table.HeaderCell>
-              <Table.HeaderCell>Author</Table.HeaderCell>
-              <Table.HeaderCell>Category</Table.HeaderCell>
-              <Table.HeaderCell>Stock</Table.HeaderCell>
-              <Table.HeaderCell>Price</Table.HeaderCell>
-              <Table.HeaderCell>Actions</Table.HeaderCell>
+              <th bgcolor="green">Image</th>
+              <th bgcolor="green">Name</th>
+              <th bgcolor="green">Description</th>
+              <th bgcolor="green">Producer</th>
+              <th bgcolor="green">Category</th>
+              <th bgcolor="green">Stock</th>
+              <th bgcolor="green">Price</th>
+              <th bgcolor="green">Actions</th>
             </Table.Row>
           </Table.Header>
           <Table.Body>{tableBody}</Table.Body>
